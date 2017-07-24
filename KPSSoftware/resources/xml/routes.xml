@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Routes maxId="14">
+    <Route id="1">
+        <routeType>Land</routeType>
+        <startId>7</startId>
+        <endId>6</endId>
+        <duration>4.0</duration>
+        <transportFirm>RoyalPost</transportFirm>
+        <pricePerGram>1.2000000476837158</pricePerGram>
+        <pricePerVolume>0.5</pricePerVolume>
+        <costPerGram>1.0</costPerGram>
+        <costPerVolume>0.5</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="2">
+        <routeType>Land</routeType>
+        <startId>7</startId>
+        <endId>6</endId>
+        <duration>3.200000047683716</duration>
+        <transportFirm>NZFast</transportFirm>
+        <pricePerGram>1.399999976158142</pricePerGram>
+        <pricePerVolume>0.949999988079071</pricePerVolume>
+        <costPerGram>1.4500000476837158</costPerGram>
+        <costPerVolume>0.949999988079071</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="3">
+        <routeType>Air</routeType>
+        <startId>6</startId>
+        <endId>5</endId>
+        <duration>1.2000000476837158</duration>
+        <transportFirm>RoyalPost</transportFirm>
+        <pricePerGram>1.899999976158142</pricePerGram>
+        <pricePerVolume>0.8999999761581421</pricePerVolume>
+        <costPerGram>1.600000023841858</costPerGram>
+        <costPerVolume>0.8999999761581421</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="4">
+        <routeType>Air</routeType>
+        <startId>6</startId>
+        <endId>5</endId>
+        <duration>1.100000023841858</duration>
+        <transportFirm>NZFast</transportFirm>
+        <pricePerGram>1.7999999523162842</pricePerGram>
+        <pricePerVolume>1.350000023841858</pricePerVolume>
+        <costPerGram>1.7999999523162842</costPerGram>
+        <costPerVolume>1.350000023841858</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="5">
+        <routeType>Air</routeType>
+        <startId>7</startId>
+        <endId>1</endId>
+        <duration>4.5</duration>
+        <transportFirm>NZFast</transportFirm>
+        <pricePerGram>3.9000000953674316</pricePerGram>
+        <pricePerVolume>3.5</pricePerVolume>
+        <costPerGram>3.200000047683716</costPerGram>
+        <costPerVolume>3.5</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="6">
+        <routeType>Land</routeType>
+        <startId>6</startId>
+        <endId>1</endId>
+        <duration>4.900000095367432</duration>
+        <transportFirm>RoyalPost</transportFirm>
+        <pricePerGram>2.9000000953674316</pricePerGram>
+        <pricePerVolume>3.0</pricePerVolume>
+        <costPerGram>2.5</costPerGram>
+        <costPerVolume>3.0</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="7">
+        <routeType>Air</routeType>
+        <startId>1</startId>
+        <endId>8</endId>
+        <duration>3.0</duration>
+        <transportFirm>FedEx</transportFirm>
+        <pricePerGram>6.599999904632568</pricePerGram>
+        <pricePerVolume>5.0</pricePerVolume>
+        <costPerGram>5.5</costPerGram>
+        <costPerVolume>5.0</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="8">
+        <routeType>Sea</routeType>
+        <startId>1</startId>
+        <endId>8</endId>
+        <duration>7.5</duration>
+        <transportFirm>PacificaMails</transportFirm>
+        <pricePerGram>4.0</pricePerGram>
+        <pricePerVolume>3.0</pricePerVolume>
+        <costPerGram>3.5</costPerGram>
+        <costPerVolume>3.0</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="9">
+        <routeType>Sea</routeType>
+        <startId>1</startId>
+        <endId>9</endId>
+        <duration>10.5</duration>
+        <transportFirm>PacificaMails</transportFirm>
+        <pricePerGram>4.800000190734863</pricePerGram>
+        <pricePerVolume>4.199999809265137</pricePerVolume>
+        <costPerGram>4.5</costPerGram>
+        <costPerVolume>4.199999809265137</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="10">
+        <routeType>Air</routeType>
+        <startId>8</startId>
+        <endId>10</endId>
+        <duration>4.800000190734863</duration>
+        <transportFirm>FedEx</transportFirm>
+        <pricePerGram>8.800000190734863</pricePerGram>
+        <pricePerVolume>6.5</pricePerVolume>
+        <costPerGram>6.5</costPerGram>
+        <costPerVolume>6.5</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="11">
+        <routeType>Sea</routeType>
+        <startId>9</startId>
+        <endId>11</endId>
+        <duration>4.0</duration>
+        <transportFirm>PacificaMails</transportFirm>
+        <pricePerGram>3.200000047683716</pricePerGram>
+        <pricePerVolume>3.200000047683716</pricePerVolume>
+        <costPerGram>3.0</costPerGram>
+        <costPerVolume>3.200000047683716</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="12">
+        <routeType>Sea</routeType>
+        <startId>10</startId>
+        <endId>11</endId>
+        <duration>0.5</duration>
+        <transportFirm>FedEx</transportFirm>
+        <pricePerGram>1.2000000476837158</pricePerGram>
+        <pricePerVolume>0.5</pricePerVolume>
+        <costPerGram>1.0</costPerGram>
+        <costPerVolume>0.5</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="13">
+        <routeType>Land</routeType>
+        <startId>11</startId>
+        <endId>12</endId>
+        <duration>14.0</duration>
+        <transportFirm>FedEx</transportFirm>
+        <pricePerGram>9.600000381469727</pricePerGram>
+        <pricePerVolume>8.5</pricePerVolume>
+        <costPerGram>8.5</costPerGram>
+        <costPerVolume>8.5</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+    <Route id="14">
+        <routeType>Air</routeType>
+        <startId>11</startId>
+        <endId>12</endId>
+        <duration>5.5</duration>
+        <transportFirm>FedEx</transportFirm>
+        <pricePerGram>13.5</pricePerGram>
+        <pricePerVolume>12.5</pricePerVolume>
+        <costPerGram>12.0</costPerGram>
+        <costPerVolume>12.5</costPerVolume>
+        <isActive>true</isActive>
+    </Route>
+</Routes>

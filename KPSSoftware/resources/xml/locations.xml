@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locations maxId="12">
+    <NZLocation id="1">
+        <cityName>Auckland</cityName>
+    </NZLocation>
+    <NZLocation id="2">
+        <cityName>Hamilton</cityName>
+    </NZLocation>
+    <NZLocation id="3">
+        <cityName>Rotorua</cityName>
+    </NZLocation>
+    <NZLocation id="4">
+        <cityName>Palmerston North</cityName>
+    </NZLocation>
+    <NZLocation id="5">
+        <cityName>Wellington</cityName>
+    </NZLocation>
+    <NZLocation id="6">
+        <cityName>Christchurch</cityName>
+    </NZLocation>
+    <NZLocation id="7">
+        <cityName>Dunedin</cityName>
+    </NZLocation>
+    <InternationalLocation id="8">
+        <cityName>Sydney</cityName>
+    </InternationalLocation>
+    <InternationalLocation id="9">
+        <cityName>Singapore</cityName>
+    </InternationalLocation>
+    <InternationalLocation id="10">
+        <cityName>HongKong</cityName>
+    </InternationalLocation>
+    <InternationalLocation id="11">
+        <cityName>GuangZhou</cityName>
+    </InternationalLocation>
+    <InternationalLocation id="12">
+        <cityName>Moscow</cityName>
+    </InternationalLocation>
+</Locations>

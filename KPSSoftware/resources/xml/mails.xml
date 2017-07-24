@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Mails maxId="5">
+    <Mail id="1">
+        <originId>7</originId>
+        <destinationId>1</destinationId>
+        <weight>2500.0</weight>
+        <volume>3000.0</volume>
+        <priority>Domestic Standard</priority>
+        <deliveryDate>2016-04-03</deliveryDate>
+        <routes>5</routes>
+    </Mail>
+    <Mail id="2">
+        <originId>7</originId>
+        <destinationId>12</destinationId>
+        <weight>6200.0</weight>
+        <volume>3000.0</volume>
+        <priority>International Standard</priority>
+        <deliveryDate>2016-04-17</deliveryDate>
+        <routes>5,9,11,13</routes>
+    </Mail>
+    <Mail id="3">
+        <originId>7</originId>
+        <destinationId>10</destinationId>
+        <weight>500.0</weight>
+        <volume>100.0</volume>
+        <priority>International Air</priority>
+        <deliveryDate>2017-01-01</deliveryDate>
+        <routes>5,7,10</routes>
+    </Mail>
+    <Mail id="4">
+        <originId>1</originId>
+        <destinationId>8</destinationId>
+        <weight>500.0</weight>
+        <volume>300.0</volume>
+        <priority>International Air</priority>
+        <deliveryDate>2017-02-02</deliveryDate>
+        <routes>7</routes>
+    </Mail>
+    <Mail id="5">
+        <originId>6</originId>
+        <destinationId>1</destinationId>
+        <weight>2800.0</weight>
+        <volume>2800.0</volume>
+        <priority>Domestic Standard</priority>
+        <deliveryDate>2017-03-03</deliveryDate>
+        <routes>6</routes>
+    </Mail>
+    <Mail id="6">
+        <originId>7</originId>
+        <destinationId>6</destinationId>
+        <weight>100.0</weight>
+        <volume>200.0</volume>
+        <priority>Domestic Standard</priority>
+        <deliveryDate>2017-06-06</deliveryDate>
+        <routes>2</routes>
+    </Mail>
+</Mails>

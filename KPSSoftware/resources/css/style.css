@@ -1,0 +1,94 @@
+/*
+===================================================================================
+Login Scene CSS 
+===================================================================================
+*/
+.login-borderpane{
+-fx-background-color: #FFFFFF;
+}
+.username-textfield{
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+}
+.password-textfield{
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+}
+.login-button{
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-background-color: #77B3D7;
+}
+.login-button:hover{
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-background-color: #77A4EA;
+}
+
+/*
+===================================================================================
+Main Body of KPS CSS
+===================================================================================
+*/
+.home-hbox{
+	-fx-background-color: #D0D0D0;
+}
+.home-vbox{
+	-fx-background-color: #E8E8E8;
+}
+.home-anchorpane{
+	//-fx-background-color: #E8E8E8;
+	-fx-background-color: #FFFFFF;
+}
+.user-lable{
+	-fx-border-width: 0 0 2 0;
+	-fx-border-color: #A9A9A9;
+	-fx-border-radius: 2;	
+}
+
+
+.main-button{
+	-fx-background-color: #0080ff;
+	-fx-border-radius: 2 2 2 2;
+	-fx-background-radius: 2 2 2 2;
+	-fx-border-color: #0080ff;
+}
+.main-button:hover{
+	//-fx-background-color: #33cc33;
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-border-radius: 2 2 2 2;
+	-fx-background-radius: 2 2 2 2;
+	-fx-border-width: 3 3 3 3;
+	-fx-border-color: #ff0000;
+}
+.logout-button{
+	-fx-background-color: #33cc33;
+	-fx-border-radius: 2 2 2 2;
+	-fx-background-radius: 2 2 2 2;
+	-fx-border-color: #33cc33;
+}
+.logout-button:hover{
+	//-fx-background-color: #33cc33;
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-border-radius: 2 2 2 2;
+	-fx-background-radius: 2 2 2 2;
+	-fx-border-width: 3 3 3 3;
+	-fx-border-color: #ff0000;
+}
+.discard-button{
+	-fx-background-color: #ff0000;
+	-fx-border-radius: 2 2 2 2;
+	-fx-background-radius: 2 2 2 2;
+	-fx-border-color: #ff0000;
+}
+.discard-button:hover{
+	//-fx-background-color: #33cc33;
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-border-radius: 2 2 2 2;
+	-fx-background-radius: 2 2 2 2;
+	-fx-border-width: 3 3 3 3;
+	-fx-border-color: #ff0000;
+}

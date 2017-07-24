@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<HBox id="home-hbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" spacing="5.0" styleClass="home-hbox" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReviewLogsController">
+    <children>
+        <VBox id="home-vbox" prefHeight="490.0" prefWidth="105.0" spacing="3.0" styleClass="home-vbox" stylesheets="@../css/style.css">
+            <children>
+                <AnchorPane prefHeight="76.0" prefWidth="106.0">
+                    <children>
+                        <ImageView fx:id="avatar" fitHeight="59.0" fitWidth="65.0" layoutX="26.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/0.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="userLable" alignment="CENTER" layoutY="61.0" prefHeight="26.0" prefWidth="110.0" styleClass="user-lable" stylesheets="@../css/style.css" text="Manager Dipen" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <Button id="sendMail" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="110.0" styleClass="main-button" stylesheets="@../css/style.css" text="Send Mail" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button id="routeDiscontinue" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="110.0" styleClass="main-button" stylesheets="@../css/style.css" text="Route Discontinue" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button id="customerPriceUpdate" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="110.0" styleClass="main-button" stylesheets="@../css/style.css" text="Price Update" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button id="transportCostUpdate" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="113.0" styleClass="main-button" stylesheets="@../css/style.css" text="Transport Cost Update" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button id="newRoute" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="109.0" styleClass="main-button" stylesheets="@../css/style.css" text="New Route" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button id="businessFigures" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="111.0" styleClass="main-button" stylesheets="@../css/style.css" text="Business Figures" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="reviewLogsButton" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="110.0" styleClass="main-button" stylesheets="@../css/style.css" text="Review Logs" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button id="logout" mnemonicParsing="false" onAction="#changeScenes" prefHeight="60.0" prefWidth="110.0" styleClass="logout-button" stylesheets="@../css/style.css" text="Log Out" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+        <AnchorPane fx:id="homAnchorpane" prefHeight="490.0" prefWidth="586.0" styleClass="home-anchorpane" stylesheets="@../css/style.css">
+            <children>
+                <Label fx:id="errorLabel" alignment="CENTER" layoutX="17.0" layoutY="75.0" prefHeight="58.0" prefWidth="544.0" text="Please Enter the Information" textFill="RED" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="119.0" layoutY="14.0" prefHeight="58.0" prefWidth="253.0" text="Review Logs">
+                    <font>
+                        <Font name="System Bold" size="40.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="87.0" fitWidth="150.0" layoutX="380.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../img/review-icon.png" />
+                    </image>
+                </ImageView>
+                <Button id="exit" layoutX="305.0" layoutY="540.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="36.0" prefWidth="118.0" styleClass="discard-button" stylesheets="@../css/style.css" text="Exit" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button id="view" layoutX="160.0" layoutY="540.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="36.0" prefWidth="118.0" styleClass="logout-button" stylesheets="@../css/style.css" text="View" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+            <TableView fx:id="tabelView" layoutX="52.0" layoutY="133.0" prefHeight="377.0" prefWidth="481.0">
+              <columns>
+                <TableColumn fx:id="idColumn" prefWidth="82.0" text="ID" />
+                <TableColumn fx:id="eventNameColumn" prefWidth="381.0" text="Event Name" />
+              </columns>
+            </TableView>
+            </children>
+        </AnchorPane>
+    </children>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+</HBox>

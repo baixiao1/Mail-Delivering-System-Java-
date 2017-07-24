@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Staffs maxId="4">
+    <Staff id="1">
+        <userName>John</userName>
+        <password>test123</password>
+        <firstName>John</firstName>
+        <lastName>Smith</lastName>
+        <email>jsmith@email.com</email>
+        <phoneNumber>123 456 7890</phoneNumber>
+        <isManager>false</isManager>
+    </Staff>
+    <Staff id="2">
+        <userName>Bob</userName>
+        <password>test123</password>
+        <firstName>Bob</firstName>
+        <lastName>Jones</lastName>
+        <email>bjones@email.com</email>
+        <phoneNumber>123 456 7890</phoneNumber>
+        <isManager>true</isManager>
+    </Staff>
+    <Staff id="3">
+        <userName>Steve</userName>
+        <password>test123</password>
+        <firstName>Steve</firstName>
+        <lastName>Jobs</lastName>
+        <email>sjobs@email.com</email>
+        <phoneNumber>123 456 7890</phoneNumber>
+        <isManager>false</isManager>
+    </Staff>
+    <Staff id="4">
+        <userName>123</userName>
+        <password>123</password>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <email>jd@email.com</email>
+        <phoneNumber>123 456 7890</phoneNumber>
+        <isManager>true</isManager>
+    </Staff>
+</Staffs>
